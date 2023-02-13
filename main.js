@@ -367,7 +367,7 @@ async function fill() {
 
     link(kpis_2_4, groups[2], topics[4]);
 
-    const workbook = xlsx.readFile("C:\\Users\\User\\Downloads\\Telegram Desktop\\Рейтинг_13.02.2023.xlsx");
+    const workbook = xlsx.readFile("./Рейтинг_13.02.2023.xlsx");
     var worksheet = workbook.Sheets['Зав кафедрой'];
 
     var arrUser = xlsx.utils.sheet_to_json(worksheet);
